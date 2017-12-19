@@ -1,0 +1,16 @@
+{
+  "latex-workshop.latex.toolchain": [
+    {
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-output-directory=build",
+        "%DOC%"
+      ]
+    }
+  ],
+  "python.pythonPath": "C:\\Users\\thinhdang\\Anaconda3\\python.exe"
+}
